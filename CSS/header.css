@@ -1,5 +1,6 @@
 /*CSS do Header*/
 
+
 header{
     background-color: var(--corDeFundo1);
     font-family: var(--fontePadrao);
@@ -11,3 +12,26 @@ header{
 header>h1{
     font-size: 2.7em;
 }
+
+header>p{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color:var(--corDeFundo3) ;
+    padding: 1em;
+}
+
+nav>a{
+    text-decoration: none;
+    color: var(--fontePadrao);
+    font-weight: bolder;
+    padding: 1em;
+}
+
+nav>a:hover, .link-ativo{
+    background-color: var(--corDeFundo2);
+    
+}
+
