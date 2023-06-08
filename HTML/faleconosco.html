@@ -26,6 +26,31 @@
     </nav>
     <h1 id="titulo">Fale Conosco</h1>
 
+    <div id="formulario">
+
+        <form action="faleconosco.html" method="post">
+            <label for="nome">*Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu Nome Completo" required>
+
+            <label for="email">*E-Mail: </label>
+            <input type="text" name="email" id="name" placeholder="Insira seu E-mail" required>
+
+            <label for="assunto">Assunto: </label>
+            <select name="assunto" id="assunto" required>
+                <option value="">Selecione um assunto</option>
+                <option value="erro">Reportar um erro</option>
+                <option value="noticia">Publicar uma notícia</option>
+                <option value="consultoria">Consultoria</option>
+            </select>
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="cancelar">Cancelar</button>
+        </form>
+
+    </div>
 
 
 
