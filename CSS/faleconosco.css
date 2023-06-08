@@ -7,6 +7,7 @@ h1#titulo{
 
 div#formulario{
     margin: 2em 10%;
+    
 }
 
 div#formulario label{
@@ -27,5 +28,27 @@ div#formulario input, select, textarea{
 div#formulario button{
     padding: 0.8em 1.5em;
     margin-top: 1em;
+    border-radius: 5px;
+    border: none;
+    color: var(--corFontePadrao);
+    font-weight: bold;
+    font-size: 1em;
     
+}
+
+div#formulario button#enviar{
+    background-color: green;
+}
+
+div#formulario button#cancelar{
+    background-color: crimson;
+}
+
+div#formulario button:hover{
+    cursor: pointer;
+}
+
+div#formulario textarea{
+    min-height: 8em;
+    max-height: 12em;
 }
